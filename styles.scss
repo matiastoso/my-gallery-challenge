@@ -1,13 +1,72 @@
-// Estilos generales
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
-
 // Variables
 $color-primary: #4E5150;
 $color-secondary: #A9A9A9;
 $color-terciary: #E5E5E5;
 $color-gray: #BDBDBD;
 
+// Estilos generales
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+}
+
+// Estilos del container
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+
+    width: 85%;
+    margin: 20px auto;
+}
+
+// Estilos del perfil
+.perfil {
+    text-align: center;
+
+    &-icon {
+        width: 156px;
+        border-radius: 16px;
+    }
+
+    &-name {
+        font-size: 24px;
+        margin-bottom: -5px;
+        color: $color-primary;
+    }
+
+    &-location {
+        font-size: 14px;
+        color: $color-secondary;
+    }
+
+    &-social {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 25rem;
+        margin-bottom: 4.2rem;
+
+        &-item {
+            width: 100px;
+            height: 67px;
+            border-radius: 12px;
+            background-color: $color-terciary;
+
+            &-number {
+                font-size: 18px;
+                margin-bottom: -10px;
+                color: $color-primary;
+            }
+
+            &-text {
+                font-size: 14px;
+                color: $color-gray;
+            }
+        }
+    }
 }
