@@ -148,3 +148,37 @@ body {
         }
     }
 }
+
+// Media Querys
+@media (max-width: 640px) {
+    .container {
+        width: 92%;
+    }
+
+    .perfil {
+        &-icon {
+            width: 101px;
+        }
+
+        &-name {
+            font-size: 14px;
+        }
+
+        &-location {
+            font-size: 10px;
+        }
+
+        &-social {
+            width: 17rem;
+
+            &-item {
+                width: 78px;
+                font-size: 12px;
+            }
+        }
+    }
+
+    .footer {
+        font-size: 13px;
+    }
+}
