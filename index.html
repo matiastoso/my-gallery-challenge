@@ -2,94 +2,61 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,
-  maximum-scale=5"
-    />
-
-    <link rel="icon" href="devchallenges.png" />
-
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-
-    <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="shortcut icon" href="images/devchallenges.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>My Gallery | Matías Toso</title>
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
+    <section class="container">
+      <div class="perfil">
+        <img src="images/profilePhoto.png" alt="Profile Photo" title="Rodney Cotton" class="perfil-icon">
+        <h1 class="perfil-name">Rodney Cotton</h1>
+        <p class="perfil-location">Helsinki, Finland</p>
+      
+        <div class="perfil-social">
+          <div class="perfil-social-item">
+            <h2 class="perfil-social-item-number">100</h2>
+            <p class="perfil-social-item-text">Posts</p>
+          </div>
 
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
+          <div class="perfil-social-item">
+            <h2 class="perfil-social-item-number">2,242</h2>
+            <p class="perfil-social-item-text">Follower</p>
+          </div>
+
+          <div class="perfil-social-item">
+            <h2 class="perfil-social-item-number">1,432</h2>
+            <p class="perfil-social-item-text">Posts</p>
+          </div>
+        </div>
       </div>
+    </section>
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
-    </div>
+    <main class="layout">
+      <div class="layout-item">
+        <img src="images/photo1.png" alt="Imagen 1">
+      </div>
+      <div class="layout-item">
+        <img src="images/photo2.png" alt="Imagen 2">
+      </div>
+      <div class="layout-item">
+        <img src="images/photo3.png" alt="Imagen 3">
+      </div>
+      <div class="layout-item">
+        <img src="images/photo4.png" alt="Imagen 4">
+      </div>
+      <div class="layout-item">
+        <img src="images/photo5.png" alt="Imagen 5">
+      </div>
+      <div class="layout-item">
+        <img src="images/photo6.png" alt="Imagen 6">
+      </div>
+    </main>
+
+    <footer>
+      <a href="https://github.com/matiastoso">Matías Toso</a> @ <a href="https://devchallenges.io/">DevChallenges.io</a>
+    </footer>
   </body>
 </html>
