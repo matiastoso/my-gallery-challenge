@@ -109,8 +109,8 @@ body {
 }
 
 .layout-item img:hover {
-  -webkit-box-shadow: 4px 5px 10px #A9A9A9;
-          box-shadow: 4px 5px 10px #A9A9A9;
+  -webkit-box-shadow: 6px 6px 11px #A9A9A9;
+          box-shadow: 6px 6px 11px #A9A9A9;
 }
 
 .layout-item:nth-child(1) {
