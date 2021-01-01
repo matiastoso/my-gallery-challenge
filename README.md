@@ -50,4 +50,4 @@ In the screenshot you can see the final rusult. Here is the [demo](https://devch
 
 - Website [Portfolio](https://matiastoso.github.io/)
 - GitHub [@matiastoso](https://github.com/matiastoso/)
-- Instagram [@matuu_nashiito](https://www.instagram.com/matuu_tosoo/)
+- Instagram [@matiastoso](https://www.instagram.com/matiastoso/)
